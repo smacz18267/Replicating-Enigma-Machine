@@ -87,7 +87,6 @@ def clear_fields():
     Output_Entry.delete(0, tkinter.END)  # Clear encoded message
     Output_Entry.config(state="readonly")  # Set output field back to read-only
 
-
 # Initialize GUI
 window = tkinter.Tk()
 window.title("Enigma Machine Simulator")
